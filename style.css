@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background: #dbdbdb;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pass{
+    background: #111625;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.5)
+    0px 7px 29px 0px;
+    position: relative;
+}
+
+.pass input{
+    background: transparent;
+    border:none;
+    font-size: 1.2rem;
+    color: #5358b9;
+}
+
+.pass input:focus {
+outline: none;
+}
+
+.pass i{
+    font-size: 1.4rem;
+    padding: 1em;
+    color: #dbdbdb;
+    transition: 0.3s;
+}
+
+.pass .fa-eye, .pass .fa-eye-slash {
+    cursor: pointer;
+    color: #5358b9;
+    width: 1.2rem;
+}
+
+
+
